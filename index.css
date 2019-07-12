@@ -1,12 +1,12 @@
 body{
 	font-family: 'Open Sans',sans-serif;
-	background-color: rgb(247, 235, 235);
+	background-color: rgb(255, 255, 255);
 }
 
 #calculator{
 	width: 320px;
 	height: 520px;
-	background-color: #eaedef;
+	background-color: #dce3e7;
 	margin: 0 auto;
 	top: 20px;
 	position: relative;
@@ -27,19 +27,20 @@ body{
 	text-align: right;
 	height: 20px;
 	margin: 0 20px;
-	padding-top: 20px;
+	padding-top: 10px;
 	font-size: 15px;
 	color: #0c0c0c;
 }
 #output{
 	text-align: right;
 	height: 60px;
-	margin: 10px 20px;
+	margin: 50px 30px;
 	font-size: 30px;
 }
 #keyboard{
 	height: 400px;
 }
+
 .operator, .number, .empty{
 	width: 50px;
 	height: 50px;
@@ -50,6 +51,17 @@ body{
 	font-weight: bold;
 	font-size: 18px;
 }
+
+.number:hover {
+	background-color: rgb(157, 223, 223);
+	
+}
+
+.operator:hover {
+	background-color: rgb(37, 233, 135);
+}
+
+
 .number, .empty{
 	background-color: #eaedef;
 
